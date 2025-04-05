@@ -1,4 +1,4 @@
-python-telegram-bot>=20.0  # Cho phiên bản async mới của python-telegram-bot
+pyTelegramBotAPI>=4.14.0  # Phiên bản mới nhất tại thời điểm gần đây
 requests>=2.28.0
-python-dateutil>=2.8.2  # Để xử lý ngày tháng nếu cần
-pytz>=2022.1  # Để xử lý múi giờ nếu ứng dụng của bạn cần
+python-dateutil>=2.8.2
+pytz>=2022.1
