@@ -68,15 +68,15 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
         '3. Tăng follow cho tài khoản TikTok:\n'
         '/fl username\n'
         'Ví dụ: /fl vietlegendc\n\n'
-        '4. Lấy thông tin tài khoản Facebook:\n'
-        '/fb link\n'
-        'Ví dụ: /fb https://www.facebook.com/VietLegendc\n'
+        '4. Lấy ảnh trang phục Free Fire:\n'
+        '/tpff uid\n'
+        'Ví dụ: /tpff 833822096\n\n'
         '5. Tăng lượt xem cho tài khoản Free Fire:\n'
         '/viewff uid\n'
         'Ví dụ: /viewff 833822096\n\n'
-        '6. Lấy ảnh trang phục Free Fire:\n'
-        '/tpff uid\n'
-        'Ví dụ: /tpff 833822096\n\n'
+        '6. Lấy thông tin tài khoản Facebook:\n'
+        '/fb link\n'
+        'Ví dụ: /fb https://www.facebook.com/VietLegendc\n'
         '7. Check thông tin tài khoản Free Fire:\n'
         '/infoff uid\n'
         'Ví dụ: /infoff 833822096\n\n'
@@ -230,7 +230,7 @@ async def get_tiktok_video_info(update: Update, context: ContextTypes.DEFAULT_TY
     try:
         # Lấy URL từ tin nhắn
         if not context.args:
-            await update.message.reply_text("Vui lòng cung cấp URL video TikTok.\n Ví dụ: /videotiktok https://www.tiktok.com/@username/video/1234567890")
+            await update.message.reply_text("Vui lòng cung cấp URL video TikTok.\n Ví dụ: /videotiktok https://www.tiktok.com/@bomaydeptraibomaycoquyen/video/7483809457726704914")
             return
 
         # Lấy URL video
