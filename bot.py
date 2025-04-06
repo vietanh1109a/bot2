@@ -64,7 +64,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
         'Ví dụ: /infotiktok vietlegendc\n\n'
         '2. Lấy thông tin video TikTok:\n'
         '/videotiktok URL\n'
-        'Ví dụ: /videotiktok https://www.tiktok.com/@username/video/1234567890\n\n'
+        'Ví dụ: /videotiktok https://www.tiktok.com/@bomaydeptraibomaycoquyen/video/7483809457726704914\n\n'
         '3. Tăng follow cho tài khoản TikTok:\n'
         '/fl username\n'
         'Ví dụ: /fl vietlegendc\n\n'
