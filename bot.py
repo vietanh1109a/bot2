@@ -12,7 +12,7 @@ logging.basicConfig(
 )
 
 # Bot Token 
-TOKEN = "7165323948:AAGe59mWIO0IhabXkeXPUyBikXmYcMeaQj4"
+TOKEN = "7466472123:AAHkvikVLrDjhl3KQVFmDydVzHsfdrdMwRo"
 
 # API URL
 TIKTOK_API_URL = "https://hoangkhiemtruong.cameraddns.net/tiktok/info.php?username="
@@ -21,7 +21,7 @@ TIKTOK_FOLLOW_API_URL = "https://hoangkhiemtruong.cameraddns.net/hoangkhiem/foll
 FREEFIRE_OUTFIT_API_URL = "https://marcoxirotech-outfit.vercel.app/api?region=vn&uid="
 FREEFIRE_API_KEY = "MARCOxIROTECH"
 # Thêm hằng số này ở đầu file cùng với các hằng số khác
-ALLOWED_GROUP_ID = -1002657417803  # Thay bằng ID nhóm thực tế của bạn
+ALLOWED_GROUP_ID = -1002549023293  # Thay bằng ID nhóm thực tế của bạn
 
 # Tạo hàm kiểm tra xem tin nhắn có đến từ nhóm được phép không
 async def check_authorized_group(update: Update, context: ContextTypes.DEFAULT_TYPE):
