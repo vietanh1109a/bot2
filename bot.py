@@ -12,7 +12,7 @@ logging.basicConfig(
 )
 
 # Bot Token 
-TOKEN = "7466472123:AAHkvikVLrDjhl3KQVFmDydVzHsfdrdMwRo"
+TOKEN = "7165323948:AAGe59mWIO0IhabXkeXPUyBikXmYcMeaQj4"
 
 # API URL
 TIKTOK_API_URL = "https://hoangkhiemtruong.cameraddns.net/tiktok/info.php?username="
@@ -21,7 +21,7 @@ TIKTOK_FOLLOW_API_URL = "https://hoangkhiemtruong.cameraddns.net/hoangkhiem/foll
 FREEFIRE_OUTFIT_API_URL = "https://marcoxirotech-outfit.vercel.app/api?region=vn&uid="
 FREEFIRE_API_KEY = "MARCOxIROTECH"
 # Thêm hằng số này ở đầu file cùng với các hằng số khác
-ALLOWED_GROUP_ID = -1002549023293  # Thay bằng ID nhóm thực tế của bạn
+ALLOWED_GROUP_ID = -1002657417803  # Thay bằng ID nhóm thực tế của bạn
 
 # Tạo hàm kiểm tra xem tin nhắn có đến từ nhóm được phép không
 async def check_authorized_group(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -728,7 +728,7 @@ async def get_freefire_views(update: Update, context: ContextTypes.DEFAULT_TYPE)
         processing_msg = await update.message.reply_text(f"Đang gửi lượt xem cho UID Free Fire {uid}...")
         
         # Tạo URL API với region mặc định là "vn"
-        api_url = f"https://freefirevisitvipvn.vercel.app/visitorsff?uid={uid}&region=vn"
+        api_url = f"https://visits-lk-tm-v2.vercel.app/{uid}"
         
         logging.info(f"Requesting Free Fire view API: {api_url}")
         
