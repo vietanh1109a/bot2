@@ -12,7 +12,7 @@ logging.basicConfig(
 )
 
 # Bot Token 
-TOKEN = "7466472123:AAHkvikVLrDjhl3KQVFmDydVzHsfdrdMwRo"
+TOKEN = "8061781080:AAGmr62iGl_cUjLrdxzAPpxiV4ZB-Rxqt5o"
 
 # API URL
 TIKTOK_API_URL = "https://hoangkhiemtruong.cameraddns.net/tiktok/info.php?username="
