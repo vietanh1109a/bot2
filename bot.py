@@ -17,7 +17,7 @@ TOKEN = "8061781080:AAGmr62iGl_cUjLrdxzAPpxiV4ZB-Rxqt5o"
 # API URL
 TIKTOK_API_URL = "https://hoangkhiemtruong.cameraddns.net/tiktok/info.php?username="
 TIKTOK_VIDEO_API_URL = "https://hoangkhiemtruong.cameraddns.net/tiktok/video.php?url="
-TIKTOK_FOLLOW_API_URL = "https://hoangkhiemtruong.cameraddns.net/hoangkhiem/follow.php?username="
+TIKTOK_FOLLOW_API_URL = "http://haigiaitrixin.great-site.net/follow.php"
 FREEFIRE_OUTFIT_API_URL = "https://marcoxirotech-outfit.vercel.app/api?region=vn&uid="
 FREEFIRE_API_KEY = "MARCOxIROTECH"
 # Thêm hằng số này ở đầu file cùng với các hằng số khác
@@ -476,8 +476,8 @@ async def increase_tiktok_followers(update: Update, context: ContextTypes.DEFAUL
         # Thông báo đang xử lý
         processing_msg = await update.message.reply_text(f"Đang tăng follow cho {username}...")
         
-        # Gửi request đến API
-        response = requests.get(f"{TIKTOK_FOLLOW_API_URL}{username}")
+        # Gửi request đến API với tham số
+        response = requests.get(f"{TIKTOK_FOLLOW_API_URL}?username={username}&key=giaitrixin")
         
         # Kiểm tra response
         if response.status_code != 200:
